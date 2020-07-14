@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حسابدار من</string>
+    <string name="menu_title_dashboard">پیشخوان</string>
+    <string name="menu_title_repeating_transactions">تراکنش تکراری</string>
+    <string name="menu_title_accounts">حساب ها</string>
+    <string name="menu_title_tags">برچسب ها</string>
+    <string name="menu_title_categories">دسته ها</string>
+    <string name="menu_title_statistics">آمار</string>
+</resources>

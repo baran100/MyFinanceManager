@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_group_views">
+
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_title_dashboard" />
+
+        <item
+            android:id="@+id/nav_repeating_transactions"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="@string/menu_title_repeating_transactions" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_gray_24dp"
+            android:title="@string/menu_title_accounts" />
+
+        <item
+            android:id="@+id/nav_tag"
+            android:icon="@drawable/ic_basket"
+            android:title="@string/menu_title_tags" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_basket"
+            android:title="@string/menu_title_categories" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_statistics"
+            android:title="@string/menu_title_statistics" />
+
+    </group>
+</menu>

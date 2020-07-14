@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Finance Manager</string>
+    <string name="menu_title_dashboard">Dashboard</string>
+    <string name="menu_title_repeating_transactions">Repeating Transactions</string>
+    <string name="menu_title_accounts">Accounts</string>
+    <string name="menu_title_tags">Tags</string>
+    <string name="menu_title_categories">Categories</string>
+    <string name="menu_title_statistics">Statistics</string>
+</resources>
