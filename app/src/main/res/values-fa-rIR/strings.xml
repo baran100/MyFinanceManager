@@ -7,4 +7,7 @@
     <string name="menu_title_tags">برچسب ها</string>
     <string name="menu_title_categories">دسته ها</string>
     <string name="menu_title_statistics">آمار</string>
+    <string name="nav_drawer_nav_help_action">کمک</string>
+    <string name="nav_drawer_nav_about_action">درباره</string>
+    <string name="nav_drawer_nav_tutorial_action">آموزش</string>
 </resources>

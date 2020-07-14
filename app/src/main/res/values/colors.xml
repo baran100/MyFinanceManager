@@ -3,4 +3,19 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#b71c1c</color>
+    <color name="green">#388E3C</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen">#026499</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen">#448bb2</color>
+
+    <color name="gray">#BEBEBE</color>
+    <color name="orange">#F98529</color>
+    <color name="purple">#8B5BD9</color>
+    <color name="blue">#1377EB</color>
 </resources>

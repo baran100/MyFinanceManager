@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">My Finance Manager</string>
+
+
+    <!-- ### N A V _ B A R ###-->
     <string name="menu_title_dashboard">Dashboard</string>
     <string name="menu_title_repeating_transactions">Repeating Transactions</string>
     <string name="menu_title_accounts">Accounts</string>
     <string name="menu_title_tags">Tags</string>
     <string name="menu_title_categories">Categories</string>
     <string name="menu_title_statistics">Statistics</string>
+    <string name="nav_drawer_toggle_open_desc">Open navigation drawer</string>
+    <string name="nav_drawer_toggle_close_desc">Close navigation drawer</string>
+    <string name="nav_drawer_nav_help_action">Help</string>
+    <string name="nav_drawer_nav_about_action">About</string>
+    <string name="nav_drawer_nav_tutorial_action">Tutorial</string>
 </resources>

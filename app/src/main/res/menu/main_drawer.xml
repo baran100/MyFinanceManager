@@ -34,4 +34,21 @@
             android:title="@string/menu_title_statistics" />
 
     </group>
+
+    <group
+        android:id="@+id/nav_group_additional"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_menu_tutorial"
+            android:title="@string/nav_drawer_nav_tutorial_action" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="@string/nav_drawer_nav_help_action" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/nav_drawer_nav_about_action" />
+    </group>
 </menu>
