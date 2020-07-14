@@ -10,4 +10,13 @@
     <string name="nav_drawer_nav_help_action">کمک</string>
     <string name="nav_drawer_nav_about_action">درباره</string>
     <string name="nav_drawer_nav_tutorial_action">آموزش</string>
+    <string name="menu_transaction_search">جستجو</string>
+    <string name="menu_transaction_filter">فیلتر</string>
+    <string name="menu_transaction_pint">پرینت</string>
+    <string name="menu_home_tip">نکته</string>
+    <string name="none">هیچ</string>
+    <string name="home_tab_transactions">تراکنش ها</string>
+    <string name="home_tab_item">چکیده ایتم</string>
+    <string name="home_tab_report">گزارش</string>
+    <string name="menu_title_person">اشخاص</string>
 </resources>

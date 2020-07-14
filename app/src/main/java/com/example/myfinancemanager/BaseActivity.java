@@ -251,7 +251,6 @@ public abstract class BaseActivity extends AppCompatActivity implements OnNaviga
         if (getSupportActionBar() == null) {
             setSupportActionBar(toolbar);
         }
-
         if (viewModel.showDrawer()) {
 
             mDrawerLayout = findViewById(R.id.drawer_layout);

@@ -19,14 +19,19 @@
             android:title="@string/menu_title_accounts" />
 
         <item
-            android:id="@+id/nav_tag"
-            android:icon="@drawable/ic_basket"
-            android:title="@string/menu_title_tags" />
-
-        <item
             android:id="@+id/nav_category"
             android:icon="@drawable/ic_basket"
             android:title="@string/menu_title_categories" />
+
+        <item
+            android:id="@+id/nav_tag"
+            android:icon="@drawable/ic_tag"
+            android:title="@string/menu_title_tags" />
+
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_title_person" />
 
         <item
             android:id="@+id/nav_statistics"
