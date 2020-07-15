@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:id="@+id/nav_group_views">
+    <group android:id="@+id/nav_group_views"
+        android:checkableBehavior="all">
 
         <item
             android:id="@+id/nav_main"
@@ -14,22 +15,22 @@
             android:title="@string/menu_title_repeating_transactions" />
 
         <item
-            android:id="@+id/nav_account"
+            android:id="@+id/nav_accounts"
             android:icon="@drawable/ic_account_gray_24dp"
             android:title="@string/menu_title_accounts" />
 
         <item
-            android:id="@+id/nav_category"
+            android:id="@+id/nav_categories"
             android:icon="@drawable/ic_basket"
             android:title="@string/menu_title_categories" />
 
         <item
-            android:id="@+id/nav_tag"
+            android:id="@+id/nav_tags"
             android:icon="@drawable/ic_tag"
             android:title="@string/menu_title_tags" />
 
         <item
-            android:id="@+id/nav_person"
+            android:id="@+id/nav_persons"
             android:icon="@drawable/ic_person"
             android:title="@string/menu_title_person" />
 

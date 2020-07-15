@@ -18,16 +18,73 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".activity.home.HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="@string/menu_title_dashboard">
+        <activity
+            android:name=".activity.home.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.statistic.StatisticsActivity"
+            android:label="@string/menu_title_statistics"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.tag.TagsActivity"
+            android:label="@string/menu_title_tags"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.person.PersonsActivity"
+            android:label="@string/menu_title_person"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.category.CategoriesActivity"
+            android:label="@string/menu_title_categories"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.account.AccountsActivity"
+            android:label="@string/menu_title_accounts"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/activity_about_title"
+            android:parentActivityName=".activity.home.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activity.AddEditTransactionActivity"
+            android:label="@string/add_transaction"
+            android:theme="@style/AppTheme.NoActionBar"  >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.home.HomeActivity" />
+        </activity>
+
     </application>
 
 </manifest>

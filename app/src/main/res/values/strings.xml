@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">My Finance Manager</string>
 
+    <!-- ### A P P ### -->
+    <string name="app_name">My Finance Manager</string>
+    <string name="app_name_long" translatable="false">Privacy Friendly Finance Manager</string>
 
     <!-- ### N A V _ B A R ###-->
     <string name="menu_title_dashboard">Dashboard</string>
@@ -16,16 +18,27 @@
     <string name="nav_drawer_nav_about_action">About</string>
     <string name="nav_drawer_nav_tutorial_action">Tutorial</string>
 
-
     <!-- ### Menus ###-->
     <string name="menu_transaction_search">Search</string>
     <string name="menu_transaction_filter">Filter</string>
     <string name="menu_transaction_pint">Print</string>
     <string name="menu_home_tip">Tip</string>
 
+    <!--### A B O U T ###-->
+    <string name="activity_about_title">About</string>
+    <string name="activity_about_version">Version v%s</string>
+    <string name="activity_about_authors">Authors: </string>
+    <string name="activity_about_authors_contributors">and contributors.</string>
+    <string name="activity_about_affiliation">In affiliation with</string>
+    <string name="activity_about_belongs">This application belongs to the group of Privacy Friendly Apps developed by Karlsruher Institute for Technology (KIT). Sourcecode licensed under GPLv3. Images copyright KIT and Google Inc.</string>
+    <string name="activity_about_more_info">More information can be found on:</string>
+    <string name="activity_about_github_link" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-finance-manager">Github-Repo</a></string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
 
     <string name="none">none</string>
     <string name="home_tab_transactions">Transactions</string>
     <string name="home_tab_item">Items</string>
     <string name="home_tab_report">Report</string>
+    <string name="trying_to_call_unknown">\"Trying to call unknown drawer item! Id: \"</string>
+    <string name="add_transaction">Add transaction</string>
 </resources>

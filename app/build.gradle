@@ -48,4 +48,5 @@ dependencies {
     implementation 'com.commonsware.cwac:saferoom:0.4.5'
     implementation 'androidx.room:room-runtime:2.2.5'
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
+
 }

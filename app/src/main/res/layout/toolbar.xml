@@ -8,9 +8,10 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="36dp"
-        android:background="@color/white"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/gray_light"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        />
+        app:titleTextAppearance="@style/ToolbarTitleTheme"
+        app:subtitleTextAppearance="@style/ToolbarSubtitleTheme"/>
 
 </com.google.android.material.appbar.AppBarLayout>

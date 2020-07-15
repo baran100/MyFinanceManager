@@ -19,4 +19,8 @@
     <string name="home_tab_item">چکیده ایتم</string>
     <string name="home_tab_report">گزارش</string>
     <string name="menu_title_person">اشخاص</string>
+    <string name="nav_drawer_toggle_open_desc">باز کردن منوی کشویی</string>
+    <string name="nav_drawer_toggle_close_desc">بستن منوی کشویی</string>
+    <string name="trying_to_call_unknown">\"تلاش برای باز کردن منو ایتم ناشناس\"</string>
+    <string name="add_transaction">افزودن تراکنش</string>
 </resources>
