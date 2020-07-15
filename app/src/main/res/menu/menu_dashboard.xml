@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home_tip"
+        android:icon="@drawable/ic_light_bulb"
+        android:title="@string/menu_home_tip"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_home_help"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/nav_drawer_nav_help_action"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_home_reset"
+        android:icon="@drawable/ic_exposure_plus"
+        android:title="@string/nav_drawer_nav_help_action"
+        app:showAsAction="ifRoom"/>
+</menu>
