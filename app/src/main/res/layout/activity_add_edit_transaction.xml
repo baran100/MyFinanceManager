@@ -6,25 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.add.AddEditTransactionActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:elevation="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_add"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/gray_light"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:subtitleTextAppearance="@style/ToolbarSubtitleTheme"
-            app:titleTextAppearance="@style/ToolbarTitleTheme" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
+    <include layout="@layout/toolbar_add"/>
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
@@ -45,7 +27,8 @@
             android:hint="@string/add_transaction_name_hint"
             android:inputType="text"
             android:maxLength="32"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            />
 
         <LinearLayout
             android:id="@+id/linearLayoutAmount"
@@ -68,7 +51,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight=".675"
                 android:ems="10"
-                android:hint="@string/add_transaction_name_hint"
+                android:hint="@string/add_transaction_value_hint"
                 android:inputType="number"
                 android:textSize="14sp"
                 android:background="@null"
@@ -100,11 +83,42 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/linearLayoutDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/linearLayoutAmount"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/etTransactionDate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1399-04-26"
+                tools:text="1399-04-26"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_calendar"
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/etTransactionTime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="12:35"
+                tools:text="12:35"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_time"
+                />
+
+        </LinearLayout>
+
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/txCategory"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_below="@id/linearLayoutAmount"
+            android:layout_below="@id/linearLayoutDate"
             android:layout_marginTop="16dp"
             android:drawableStart="@drawable/ic_basket"
             android:gravity="center_vertical"

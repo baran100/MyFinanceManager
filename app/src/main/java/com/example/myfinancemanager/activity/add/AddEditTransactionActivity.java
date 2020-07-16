@@ -2,6 +2,7 @@ package com.example.myfinancemanager.activity.add;
 
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.myfinancemanager.BaseActivity;
 import com.example.myfinancemanager.R;
+import com.example.myfinancemanager.activity.account.AccountsActivity;
 import com.example.myfinancemanager.activity.viewModel.AddEditViewModel;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
 
@@ -39,7 +41,6 @@ public class AddEditTransactionActivity extends BaseActivity {
                 finish();
             }
         });
-
     }
 
     @Override

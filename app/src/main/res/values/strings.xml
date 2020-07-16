@@ -39,7 +39,25 @@
     <string name="add_transaction">Add transaction</string>
     <string name="add_transaction_name_hint">Enter title</string>
     <string name="add_transaction_value_hint">Enter amount</string>
-    <string name="add_transaction_note">Note</string>
+    <string name="add_transaction_note">Note(optional)</string>
+
+    <!--### Account ###-->
+    <string name="add_account">Add account</string>
+    <string name="account_name">Account name</string>
+    <string name="account_date">Date</string>
+    <string name="account_amount">Initial amount</string>
+
+    <!--### Category ###-->
+    <string name="add_category">Add category</string>
+    <string name="category_name">Category name</string>
+
+    <!--### TAG ###-->
+    <string name="add_tag">Add tag</string>
+    <string name="tag_name">Tag name</string>
+
+    <!--### PERSON ###-->
+    <string name="add_person">Add person</string>
+    <string name="person_name">Person name</string>
 
 
     <string name="none">none</string>
@@ -50,4 +68,14 @@
     <string name="expanse">Expense</string>
     <string name="income">Income</string>
     <string name="transfer">Transfer</string>
+    <string name="transaction">Transaction</string>
+    <string name="account">Account</string>
+    <string name="category">Category</string>
+    <string name="balance">Balance</string>
+    <string name="transaction_list">Transactions list</string>
+    <string name="edit">Edit</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete</string>
+    <string name="tag">Tag</string>
+
 </resources>

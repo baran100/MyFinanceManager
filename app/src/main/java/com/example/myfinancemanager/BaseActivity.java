@@ -12,14 +12,14 @@ import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
-import android.preference.PreferenceManager;
+
 import androidx.annotation.LayoutRes;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.example.myfinancemanager.activity.AboutActivity;
 import com.example.myfinancemanager.activity.account.AccountsActivity;
 import com.example.myfinancemanager.activity.category.CategoriesActivity;
-import com.example.myfinancemanager.activity.home.HomeActivity;
+import com.example.myfinancemanager.activity.HomeActivity;
 import com.example.myfinancemanager.activity.person.PersonsActivity;
 import com.example.myfinancemanager.activity.statistic.StatisticsActivity;
 import com.example.myfinancemanager.activity.tag.TagsActivity;
@@ -39,7 +39,6 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.widget.TextView;
 
 import java.util.ArrayList;

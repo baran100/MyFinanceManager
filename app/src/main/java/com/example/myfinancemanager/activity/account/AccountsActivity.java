@@ -1,11 +1,13 @@
 package com.example.myfinancemanager.activity.account;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
 import com.example.myfinancemanager.BaseActivity;
 import com.example.myfinancemanager.R;
+import com.example.myfinancemanager.activity.add.AddEditAccountActivity;
 import com.example.myfinancemanager.activity.viewModel.AccountsViewModel;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
 
@@ -26,8 +28,8 @@ public class AccountsActivity extends BaseActivity {
         addFab(R.layout.fab_add, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(AccountsActivity.this, "Saved", Toast.LENGTH_SHORT).show();
-                finish();
+                Intent intent = new Intent(AccountsActivity.this, AddEditAccountActivity.class);
+                startActivity(intent);
             }
         });
     }
