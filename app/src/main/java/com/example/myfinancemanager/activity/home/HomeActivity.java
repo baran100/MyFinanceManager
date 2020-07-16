@@ -7,11 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.viewpager.widget.ViewPager;
 import com.example.myfinancemanager.BaseActivity;
 import com.example.myfinancemanager.R;
-import com.example.myfinancemanager.activity.AddEditTransactionActivity;
+import com.example.myfinancemanager.activity.add.AddEditTransactionActivity;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
 import com.example.myfinancemanager.activity.viewModel.HomeViewModel;
 import com.example.myfinancemanager.utility.HomePackageTabAdapter;

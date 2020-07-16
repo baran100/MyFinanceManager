@@ -23,4 +23,10 @@
     <string name="nav_drawer_toggle_close_desc">بستن منوی کشویی</string>
     <string name="trying_to_call_unknown">\"تلاش برای باز کردن منو ایتم ناشناس\"</string>
     <string name="add_transaction">افزودن تراکنش</string>
+    <string name="add_transaction_name_hint">عنوان تراکنش</string>
+    <string name="add_transaction_value_hint">مقدار</string>
+    <string name="add_transaction_note">یاداشت</string>
+    <string name="expanse">هزینه</string>
+    <string name="income">درآمد</string>
+    <string name="transfer">جابجایی</string>
 </resources>

@@ -1,15 +1,15 @@
-package com.example.myfinancemanager.activity;
+package com.example.myfinancemanager.activity.add;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.myfinancemanager.BaseActivity;
 import com.example.myfinancemanager.R;
-import com.example.myfinancemanager.activity.viewModel.AccountsViewModel;
 import com.example.myfinancemanager.activity.viewModel.AddEditViewModel;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
 
@@ -31,6 +31,14 @@ public class AddEditTransactionActivity extends BaseActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
+
+        addFab(R.layout.fab_don, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(AddEditTransactionActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        });
 
     }
 

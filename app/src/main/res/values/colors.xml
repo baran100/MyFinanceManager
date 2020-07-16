@@ -6,7 +6,7 @@
 
     <color name="white">#ffffff</color>
     <color name="red">#b71c1c</color>
-    <color name="green">#388E3C</color>
+    <color name="green">#00c853</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen">#026499</color>
