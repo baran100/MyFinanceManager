@@ -8,9 +8,8 @@ android {
         applicationId "com.example.myfinancemanager"
         minSdkVersion 24
         targetSdkVersion 29
-        versionCode 2
-        versionName "1.0.0.1"
-
+        versionCode 1
+        versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -42,11 +41,20 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //room
     implementation 'net.danlew:android.joda:2.10.6'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
     implementation 'com.commonsware.cwac:saferoom:0.4.5'
     implementation 'androidx.room:room-runtime:2.2.5'
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
+
+    //utility
+    implementation 'com.github.abbasalim:Android-CalculatorDialog:v3.0.1'
+
+    //persian
+    implementation 'com.github.roojin:persian-calendar-view:1.2.2'
+    implementation 'com.github.ali-sardari:PersianRangeDatePicker:1.3.0'
+
 
 }

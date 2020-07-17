@@ -17,6 +17,7 @@ import androidx.annotation.LayoutRes;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.example.myfinancemanager.activity.AboutActivity;
+import com.example.myfinancemanager.activity.HelpActivity;
 import com.example.myfinancemanager.activity.account.AccountsActivity;
 import com.example.myfinancemanager.activity.category.CategoriesActivity;
 import com.example.myfinancemanager.activity.HomeActivity;
@@ -321,7 +322,7 @@ public abstract class BaseActivity extends AppCompatActivity implements OnNaviga
                 createBackStack(intent);
                 break;
             case R.id.nav_help:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, HelpActivity.class);
                 createBackStack(intent);
                 break;
 

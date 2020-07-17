@@ -92,7 +92,7 @@
             android:orientation="horizontal">
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/etTransactionDate"
+                android:id="@+id/tvTransactionDate"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -102,7 +102,7 @@
                 android:drawableStart="@drawable/ic_calendar"
                 />
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/etTransactionTime"
+                android:id="@+id/tvTransactionTime"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import com.example.myfinancemanager.BaseActivity;
 import com.example.myfinancemanager.R;
 import com.example.myfinancemanager.activity.add.AddEditTagActivity;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
 import com.example.myfinancemanager.activity.viewModel.TagsViewModel;
+
 
 public class TagsActivity extends BaseActivity {
 
