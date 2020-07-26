@@ -76,4 +76,7 @@
     <string name="category_budget">بودجه</string>
     <string name="this_month">ابن ماه</string>
     <string name="activity_account_beginning_month_suffix">در آغاز این ماه</string>
+    <string name="from_date">از تاریخ</string>
+    <string name="to_date">تا تاریخ</string>
+    <string name="select_time">یک تاریخ انتخاب کنید</string>
 </resources>

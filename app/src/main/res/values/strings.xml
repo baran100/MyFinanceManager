@@ -63,6 +63,11 @@
     <string name="add_person">Add person</string>
     <string name="person_name">Person name</string>
 
+    <!--### DIALOG ###-->
+    <string name="from_date">From date</string>
+    <string name="to_date">To date</string>
+    <string name="select_time">Select a Time</string>
+
     <!--### H E L P ###-->
     <string-array name="activity_help_questions">
         <item>What is Privacy Friendly Finance Manager?</item>
