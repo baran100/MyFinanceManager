@@ -17,6 +17,7 @@
     <string name="nav_drawer_nav_help_action">Help</string>
     <string name="nav_drawer_nav_about_action">About</string>
     <string name="nav_drawer_nav_tutorial_action">Tutorial</string>
+    <string name="menu_title_settings">Settings</string>
 
     <!-- ### Menus ###-->
     <string name="menu_transaction_search">Search</string>
@@ -46,10 +47,13 @@
     <string name="account_name">Account name</string>
     <string name="account_date">Date</string>
     <string name="account_amount">Initial amount</string>
+    <string name="activity_account_beginning_month_suffix">at the beginning of this month</string>
 
     <!--### Category ###-->
     <string name="add_category">Add category</string>
     <string name="category_name">Category name</string>
+    <string name="category_budget">Budget</string>
+    <string name="this_month">This Month</string>
 
     <!--### TAG ###-->
     <string name="add_tag">Add tag</string>
@@ -79,6 +83,23 @@
         <!-- <item>Accounts can be used to track the money you have in a real bank account in some bank. It is possible to change the balance of the beginning of the month so you don't have to add all the small expenses and incomes by hand. In the Account view you get an overview of all transactions you added to the corresponding account.</item>-->
     </string-array>
 
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
     <string name="none">none</string>
     <string name="home_tab_transactions">Transactions</string>
     <string name="home_tab_item">Items</string>
@@ -96,5 +117,7 @@
     <string name="submit">Submit</string>
     <string name="delete">Delete</string>
     <string name="tag">Tag</string>
+    <string name="sing_q">\?</string>
+
 
 </resources>

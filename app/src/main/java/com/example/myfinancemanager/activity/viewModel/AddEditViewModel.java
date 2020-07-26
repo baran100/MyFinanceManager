@@ -20,4 +20,8 @@ public class AddEditViewModel extends BaseViewModel {
         return false;
     }
 
+    @Override
+    public boolean showArrowBack() {
+        return true;
+    }
 }

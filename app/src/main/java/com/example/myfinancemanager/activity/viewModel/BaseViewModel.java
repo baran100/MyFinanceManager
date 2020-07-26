@@ -4,6 +4,7 @@ import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
+import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -24,6 +25,7 @@ public class BaseViewModel extends AndroidViewModel {
 
     public BaseViewModel(@NonNull Application application) {
         super(application);
+
     }
 
     public LiveData<String> getTitle() {
@@ -52,5 +54,9 @@ public class BaseViewModel extends AndroidViewModel {
 
     public boolean showDrawer() {
         return true;
+    }
+
+    public boolean showArrowBack(){
+        return false;
     }
 }

@@ -23,6 +23,7 @@ import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Currency;
 import java.util.Date;
 import java.util.Locale;
 import ir.esfandune.calculatorlibe.CalculatorDialog;
@@ -30,9 +31,10 @@ import ir.esfandune.calculatorlibe.CalculatorDialog;
 
 public class AddEditTransactionActivity extends BaseActivity {
 
+    Toolbar toolbar;
     EditText etTransactionAmount;
     ImageView imgCalculator;
-    TextView tvTransactionDate,tvTransactionTime;
+    TextView tvTransactionDate,tvTransactionTime,tvCurrency,tvExpense,tvIncome,tvTransfer;
     PersianCalendar calendar;
 
 
@@ -45,19 +47,22 @@ public class AddEditTransactionActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContent(R.layout.activity_add_edit_transaction);
+        init();
 
-        Toolbar toolbar = findViewById(R.id.toolbar_add);
         if (getSupportActionBar() == null) {
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
-        etTransactionAmount = findViewById(R.id.etTransactionAmount);
-        tvTransactionDate = findViewById(R.id.tvTransactionDate);
-        tvTransactionTime = findViewById(R.id.tvTransactionTime);
 
-        imgCalculator = findViewById(R.id.imgCalculator);
+
+
+        Currency currency = Currency.getInstance(Locale.getDefault());
+        String currencyCode = currency. getCurrencyCode();
+        tvCurrency.setText(currencyCode);
+
+
         imgCalculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,9 +80,9 @@ public class AddEditTransactionActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Calendar mcurrentTime = Calendar.getInstance();
-                int hour = mcurrentTime.get(Calendar.HOUR_OF_DAY);
-                int minute = mcurrentTime.get(Calendar.MINUTE);
+                Calendar mCurrentTime = Calendar.getInstance();
+                int hour = mCurrentTime.get(Calendar.HOUR_OF_DAY);
+                int minute = mCurrentTime.get(Calendar.MINUTE);
                 TimePickerDialog mTimePicker;
                 mTimePicker = new TimePickerDialog(AddEditTransactionActivity.this, new TimePickerDialog.OnTimeSetListener() {
                     @Override
@@ -104,8 +109,6 @@ public class AddEditTransactionActivity extends BaseActivity {
                     @Override
                     public void onSingleDateSelected(PersianCalendar date) {
                         tvTransactionDate.setText(date.getPersianShortDate());
-                        tvTransactionTime.setText(date.getPersianLongDateAndTime());
-
                     }
                 });
 
@@ -155,4 +158,16 @@ public class AddEditTransactionActivity extends BaseActivity {
         }.setValue(value).showDIalog();
     }
 
+    private void init(){
+        toolbar = findViewById(R.id.toolbar_add);
+        imgCalculator = findViewById(R.id.imgCalculator);
+        etTransactionAmount = findViewById(R.id.etTransactionAmount);
+        tvTransactionDate = findViewById(R.id.tvTransactionDate);
+        tvTransactionTime = findViewById(R.id.tvTransactionTime);
+        tvCurrency = findViewById(R.id.tvCurrency);
+        tvExpense = findViewById(R.id.tvExpense);
+        tvIncome = findViewById(R.id.tvIncome);
+        tvTransfer = findViewById(R.id.tvTransfer);
+
+    }
 }

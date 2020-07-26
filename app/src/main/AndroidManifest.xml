@@ -126,6 +126,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.HomeActivity" />
         </activity>
+        <activity
+            android:name=".activity.setting.SettingsActivity"
+            android:label="@string/title_activity_settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.HomeActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -22,6 +22,7 @@ import com.example.myfinancemanager.activity.account.AccountsActivity;
 import com.example.myfinancemanager.activity.category.CategoriesActivity;
 import com.example.myfinancemanager.activity.HomeActivity;
 import com.example.myfinancemanager.activity.person.PersonsActivity;
+import com.example.myfinancemanager.activity.setting.SettingsActivity;
 import com.example.myfinancemanager.activity.statistic.StatisticsActivity;
 import com.example.myfinancemanager.activity.tag.TagsActivity;
 import com.example.myfinancemanager.activity.viewModel.BaseViewModel;
@@ -116,7 +117,7 @@ public abstract class BaseActivity extends AppCompatActivity implements OnNaviga
         overridePendingTransition(0, 0);
 
         viewModel = getViewModel();
-        ;
+
         if (viewModel.showDrawer()) {
             ActivityBaseBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_base);
             mNavigationView = binding.getRoot().findViewById(R.id.nav_view);
@@ -332,6 +333,10 @@ public abstract class BaseActivity extends AppCompatActivity implements OnNaviga
                 break;
             case R.id.nav_statistics:
                 intent = new Intent(this, StatisticsActivity.class);
+                createBackStack(intent);
+                break;
+            case R.id.nav_settings:
+                intent = new Intent(this, SettingsActivity.class);
                 createBackStack(intent);
                 break;
             default:

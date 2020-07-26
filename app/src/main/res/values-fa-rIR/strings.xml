@@ -67,4 +67,13 @@
         <item>How do i delete an entry i made?</item>
         <item>What are accounts for?</item>
     </string-array>
+    <string name="activity_about_title">درباره</string>
+    <string name="messages_header">پیام</string>
+    <string name="sync_header">همگام سازی</string>
+    <string name="title_activity_settings">تنظیمات</string>
+    <string name="menu_title_settings">تنظیمات</string>
+    <string name="sing_q">؟</string>
+    <string name="category_budget">بودجه</string>
+    <string name="this_month">ابن ماه</string>
+    <string name="activity_account_beginning_month_suffix">در آغاز این ماه</string>
 </resources>

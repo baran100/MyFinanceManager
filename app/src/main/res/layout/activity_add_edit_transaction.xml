@@ -43,7 +43,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".1"
-                android:src="@drawable/ic_minus" />
+                android:src="@drawable/ic_minus"
+                android:scaleType="centerInside"/>
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etTransactionAmount"
@@ -67,16 +68,17 @@
                 android:layout_weight=".1"
                 android:background="@drawable/round_corner_bg"
                 android:padding="3dp"
-                android:src="@drawable/calculator" />
+                android:src="@drawable/calculator"
+                android:scaleType="centerInside"/>
 
             <TextView
-                android:id="@+id/txCurrency"
+                android:id="@+id/tvCurrency"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".125"
                 android:background="@drawable/round_corner_bg"
-                android:gravity="center"
-                android:text="IRR"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="USD"
                 android:textAlignment="gravity"
                 android:textColor="@color/white"
                 android:textSize="16sp"
@@ -179,7 +181,7 @@
         android:background="@color/gray_light">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tvExpense"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -187,7 +189,7 @@
             android:text="@string/expanse" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvIncome"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -195,7 +197,7 @@
             android:text="@string/income" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tvTransfer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -203,7 +205,7 @@
             android:text="@string/transfer" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/text9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -215,6 +217,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:visibility="invisible" />
+
     </LinearLayout>
 
 

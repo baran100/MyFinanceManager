@@ -12,6 +12,6 @@ public class PFFinanceApplication extends Application {
     public void onCreate() {
         super.onCreate();
         JodaTimeAndroid.init(this);
-        TypefaceUtil.overrideFont(this,"SERIF","fonts/EstedadFDMedium.ttf");
+        //TypefaceUtil.overrideFont(this,"SERIF","fonts/EstedadFDMedium.ttf");
     }
 }
