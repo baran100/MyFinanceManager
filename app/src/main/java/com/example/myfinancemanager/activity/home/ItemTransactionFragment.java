@@ -11,11 +11,17 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import com.example.myfinancemanager.R;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myfinancemanager.R;
+import com.example.myfinancemanager.adapter.ItemTransactionsAdapter;
 
 
 public class ItemTransactionFragment extends Fragment {
+
+    private RecyclerView recyclerView;
+    private ItemTransactionsAdapter adapter;
 
     public ItemTransactionFragment() {
         // Required empty public constructor
@@ -32,7 +38,10 @@ public class ItemTransactionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_item_transaction, container, false);
         setHasOptionsMenu(true);
-
+        recyclerView = view.findViewById(R.id.recycleView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,false));
+        adapter = new ItemTransactionsAdapter();
+        recyclerView.setAdapter(adapter);
         return view;
     }
 

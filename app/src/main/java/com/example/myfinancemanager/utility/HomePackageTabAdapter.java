@@ -9,7 +9,9 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import com.example.myfinancemanager.R;
 import com.example.myfinancemanager.activity.home.DashboardFragment;
 import com.example.myfinancemanager.activity.home.ItemTransactionFragment;
+import com.example.myfinancemanager.activity.home.PersonsFragment;
 import com.example.myfinancemanager.activity.home.ReportFragment;
+import com.example.myfinancemanager.activity.home.TagsFragment;
 import com.example.myfinancemanager.activity.home.TransactionFragment;
 import com.google.android.material.tabs.TabLayout;
 
@@ -39,11 +41,11 @@ public class HomePackageTabAdapter extends FragmentStatePagerAdapter {
         }
         else if (position == 3)
         {
-            fragment = new ItemTransactionFragment();
+            fragment = new TagsFragment();
         }
         else if (position == 4)
         {
-            fragment = new ItemTransactionFragment();
+            fragment = new PersonsFragment();
         }
         else if (position == 5)
         {
