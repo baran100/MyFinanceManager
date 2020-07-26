@@ -1,6 +1,5 @@
 package com.example.myfinancemanager.activity.tag;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -30,7 +29,7 @@ public class TagsActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContent(R.layout.activity_tags);
 
-        recyclerView = findViewById(R.id.rvTag);
+        recyclerView = findViewById(R.id.recycleView);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
         adapter = new TagsAdapter();
