@@ -79,4 +79,11 @@
     <string name="from_date">از تاریخ</string>
     <string name="to_date">تا تاریخ</string>
     <string name="select_time">یک تاریخ انتخاب کنید</string>
+    <string name="error_enter_name">لطفا یک نام وارد کنید</string>
+    <string name="saved">ذخیره شد</string>
+    <string name="not_saved">ذخیره نشد</string>
+    <string name="okay">بسیار خوب</string>
+    <string name="cancel">لغو</string>
+    <string name="choose_color">انتخاب رنگ</string>
+    <string name="activity_persons_empty_list_label">هیچ شخصی یافت نشد</string>
 </resources>

@@ -23,6 +23,7 @@ import com.example.myfinancemanager.activity.viewModel.HomeViewModel;
 import com.example.myfinancemanager.utility.HomePackageTabAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
+import com.idescout.sql.SqlScoutServer;
 
 public class HomeActivity extends BaseActivity implements View.OnClickListener {
 

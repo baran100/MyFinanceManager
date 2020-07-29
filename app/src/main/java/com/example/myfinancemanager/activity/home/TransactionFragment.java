@@ -54,4 +54,10 @@ public class TransactionFragment extends Fragment {
         menuItemEdit.setVisible(false);
         super.onCreateOptionsMenu(menu, inflater);
     }
+
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+
+        return super.onContextItemSelected(item);
+    }
 }
